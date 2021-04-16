@@ -1,0 +1,158 @@
+@import url(../fonts/stylesheet.css);
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    color: #22356F;
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/* Header */
+
+.header {
+    margin: 0 auto;
+    width: 1438px;
+    height: 840px;
+    background: url(../images/header_bg.png) center no-repeat;
+}
+
+.header__inner {
+    margin-left: 178px;
+    display: flex;
+    flex-direction: column;
+    width: 1130px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    font-family: Larsseit;
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    color: #62D0DF;
+}
+
+.header__logo-top {
+    margin-top: 30px;
+}
+
+.header__nav {
+    margin-top: 34px;
+}
+
+.header__nav-item {
+    font-family: Larsseit;
+    font-size: 14px;
+    line-height: 16px;
+    color: #22356F;
+    text-decoration: none;
+    padding: 15px 7px;
+    margin-left: 9px;
+    transition: all 0.1s linear;
+}
+
+.header__nav-item:hover {
+    border-bottom: 2px solid #22356F;
+}
+
+.header__nav-item:active {
+    color: #62D0DF;
+}
+
+.header__btn-contact {
+    font-family: Larsseit;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #62D0DF;
+    border-radius: 50px;
+    transition: all 0.1s linear;
+    margin-top: 27px;
+}
+
+.header__btn-contact:hover {
+    background-color: #22356F;
+}
+
+.header__btn-contact:active {
+    background-color: #fff;
+    color: black;
+}
+
+.header__logo-mid {
+    margin-top: 167px;
+}
+
+.header__tittle {
+    width: 484px;
+    font-family: Larsseit;
+    font-size: 48px;
+    line-height: 57px;
+    letter-spacing: -0.035em;
+    color: #22356F;
+    margin-top: 39px;
+}
+
+.header__subtittle {
+    width: 489px;
+    font-family: Larsseit;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 400;
+    margin-top: 62px;
+    color: #22356F;
+}
+
+.header__bottom {
+    display: flex;
+    margin-top: 52px;
+}
+
+.header__btn {
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FAB63E;
+    transition: all 0.1s linear;
+}
+
+.header__btn:hover {
+    background-color: #F9B640;
+    color: white;
+}
+
+.header__btn:active {
+    background-color: #fff;
+    color: black;
+}
+
+.header__btn-left {
+    margin-left: 11px;
+}
