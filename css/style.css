@@ -156,3 +156,44 @@ body {
 .header__btn-left {
     margin-left: 11px;
 }
+
+/* why */
+
+.why {
+    position: relative;
+    margin: 0 auto;
+    width: 1438px;
+    height: 604px;
+    background-color: #62D0DF;
+}
+
+.why__inner {
+    margin-left: 178px;
+    display: flex;
+    flex-direction: column;
+    width: 1130px;
+}
+
+.why__tittle {
+    font-family: Larsseit;
+    font-size: 36px;
+    line-height: 27px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    margin-top: 164px;
+}
+
+.why__subtittle {
+    font-family: Larsseit;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+    width: 555px;
+    margin-top: 88px;
+}
+
+.why__img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
