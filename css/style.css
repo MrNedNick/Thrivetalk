@@ -205,6 +205,7 @@ body {
     width: 1438px;
     height: 361px;
     background-color: #fff;
+    border-top: 1px solid transparent;
 }
 
 .about__inner {
@@ -230,7 +231,91 @@ body {
     font-family: Larsseit;
     font-size: 24px;
     line-height: 38px;
-    
     font-weight: 700;
     color: #22356F;
+}
+
+/* Help */
+
+.help {
+    margin: 0 auto;
+    width: 1438px;
+    height: 595px;
+    background-color: #fff;
+    border-top: 1px solid transparent;
+}
+
+
+
+.help__tittle {
+    text-align: center;
+    display: block;
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.06em;
+    color: rgba(34, 53, 111, 0.5);
+    margin-top: 78px;
+}
+
+.help__items {
+    display: flex;
+    margin-top: 24px;
+}
+
+.help__item {
+    position: relative;
+    width: 360px;
+    height: 360px;
+}
+
+.help__item-ping-bg {
+    background-color: #FFE2DE;
+}
+
+.help__item-green-bg {
+    background-color: #C4E769;
+}
+
+.help__item-breeze-bg {
+    background-color: #62D0DF;
+}
+
+.help__item-blue-bg {
+    background-color: #0052C1;
+}
+
+.help__item-tittle {
+    font-family: Larsseit;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 78px;
+    width: 232px;
+}
+
+.help__item-tittle::after{
+    position: absolute;
+    display: block;
+    content: "";
+    width: 9px;
+    height: 9px;
+    background-color: #E9B730;
+    top: 107px;
+    left: 54px;
+    border-radius: 50%;
+}
+
+.help__item-tittle::before{
+    position: absolute;
+    display: block;
+    content: "";
+    width: 255px;
+    height: 1px;
+    background-color: #FFF;
+    text-align: center;
+    top:72px;
+    left:50px;
 }
