@@ -197,3 +197,40 @@ body {
     right: 0;
     top: 0;
 }
+
+/* About */
+
+.about {
+    margin: 0 auto;
+    width: 1438px;
+    height: 361px;
+    background-color: #fff;
+}
+
+.about__inner {
+    margin-top: 158px;
+}
+
+.about__tittle {
+    display: block;
+    float: left;
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #22356F;
+    margin-left: 103px;
+}
+
+.why__text {
+    display: block;
+    float: left;
+    width: 592px;
+    margin: -9px 0 0 232px;
+    font-family: Larsseit;
+    font-size: 24px;
+    line-height: 38px;
+    
+    font-weight: 700;
+    color: #22356F;
+}
