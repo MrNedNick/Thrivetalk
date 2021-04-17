@@ -240,12 +240,10 @@ body {
 .help {
     margin: 0 auto;
     width: 1438px;
-    height: 595px;
+    height: 603px;
     background-color: #fff;
     border-top: 1px solid transparent;
 }
-
-
 
 .help__tittle {
     text-align: center;
@@ -296,7 +294,7 @@ body {
     width: 232px;
 }
 
-.help__item-tittle::after{
+.help__item-tittle::after {
     position: absolute;
     display: block;
     content: "";
@@ -308,7 +306,7 @@ body {
     border-radius: 50%;
 }
 
-.help__item-tittle::before{
+.help__item-tittle::before {
     position: absolute;
     display: block;
     content: "";
@@ -316,6 +314,86 @@ body {
     height: 1px;
     background-color: #FFF;
     text-align: center;
-    top:72px;
-    left:50px;
+    top: 72px;
+    left: 50px;
+}
+
+/* Else */
+
+.else {
+    margin: 0 auto;
+    width: 1438px;
+    height: 960px;
+    background-color: #fff; 
+}
+.else__items {
+    display: flex;
+}
+
+.else__item {
+    position: relative;
+    width: 480px;
+    height: 480px;
+}
+
+.else__item-dark-bg {
+    background-color: #22356F;
+}
+.else__item-blue-bg {
+    background-color: #0052C1;
+}
+.else__item-img-bg {
+    background-image: url(../images/else_bg.png);
+}
+
+.else__item-breeze-bg {
+    background-color: #62D0DF;
+}
+.else__item-pink-bg{
+    background-color: #DEE1FF;
+}
+.else__item-dark-pink-bg {
+    background-color: #8F00FF;
+}
+
+.else__item-tittle {
+    font-family: Larsseit;
+    font-size: 32px;
+    line-height: 34px;
+    font-weight: 700;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    margin-top: 141px;
+    margin-left: 105px;
+    width: 157px;
+}
+
+.else__item-tittle::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #E9B730;
+    top: 151px;
+    left: 72px;
+    border-radius: 50%;
+}
+
+.else__item-tittle::before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 340px;
+    height: 1px;
+    background-color: #FFF;
+    text-align: center;
+    top: 96px;
+    left: 70px;
+}
+
+/* Blocks */
+
+.blocks {
+    height: 542px;
 }
