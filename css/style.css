@@ -445,12 +445,11 @@ body {
     width: 1438px;
     height: 800px;
     background-color: #fff;
-
 }
 
 .also__inner {
     position: relative;
-        border-top: 1px solid transparent;
+    border-top: 1px solid transparent;
 }
 
 .also__img {
@@ -501,6 +500,7 @@ body {
     transition: all 0.1s linear;
     margin-left: 556px;
     margin-top: 141px;
+    width: 194px;
 }
 
 .also__btn:hover {
@@ -511,4 +511,86 @@ body {
 .also__btn:active {
     background-color: #fff;
     color: black;
+}
+
+/* Contact */
+
+.contact {
+    margin: 0 auto;
+    width: 1438px;
+    height: 800px;
+    background-color: #22356F;
+}
+
+.contact__inner {
+    position: relative;
+    border-top: 1px solid transparent;
+}
+
+.contact__tittle {
+    font-family: Larsseit;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    
+    margin-top: 107px;
+    margin-left: 179px;
+}
+
+.contact__main {
+    font-family: Larsseit;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin-top: 222px;
+    margin-left: 179px;
+}
+
+.contact__subtittle {
+    font-family: Larsseit;
+    font-size: 36px;
+    line-height: 56px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    max-width: 579px;
+    margin-top: -15px;
+    margin-left: 179px;
+}
+
+.contact__btn {
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Larsseit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #62D0DF;
+    transition: all 0.1s linear;
+    margin-left: 148px;
+    margin-top: 64px;
+    width: 194px;
+}
+
+.contact__btn:hover {
+    background-color: #F9B640;
+    color: white;
+}
+
+.contact__btn:active {
+    background-color: #fff;
+    color: black;
+}
+
+.contact__img {
+    position: absolute;
+    right: 0;
+    top: 0;
 }
