@@ -603,14 +603,10 @@ body {
     background-color: #fff;
 }
 
-.footer__inner {
-    /* display: flex;
-    flex-direction: column; */
-}
-
 .footer__top {
     position: relative;
     display: flex;
+    height: 380px;
     
 }
 
@@ -660,7 +656,6 @@ body {
     display: flex;
     background-color: #62D0DF;
     min-height: 80px;
-    margin-top: 76px;
 }
 
 .footer__copyright {
